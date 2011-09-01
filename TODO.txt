@@ -1,0 +1,6 @@
+- flash of unstyle content (fouc!), move scripts to the end of the page
+- asides: http://codex.wordpress.org/Adding_Asides
+- htaccess: ErrorDocument 404 /index.php?error=404  (http://www.arunrocks.com/blog/archives/2006/03/01/a-nearly-perfect-404-error-page-in-wordpress/)
+- use <!--more--> in the posts?
+- security: http://codex.wordpress.org/Hardening_WordPress
+- performance: http://codex.wordpress.org/High_Traffic_Tips_For_WordPress

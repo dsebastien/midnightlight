@@ -1,0 +1,442 @@
+﻿/*
+Theme Name: Midnight Light
+Theme URI: https://github.com/dsebastien/midnightlight
+Description: Midnight Light is a theme I developped for my own blog: www.dsebastien.net. It is dark, clean, simple and very nice for photo blogs
+Version: 1.0.0
+Author: dSebastien
+Author URI: http://www.dsebastien.net
+Tags: dark, black, two-columns, right-sidebar
+*/
+body {
+	background: #474c52 url(images/layout/background.jpg) center;
+	color: #333;
+	font-family: 'Verdana', 'Lucida Grande', 'Lucida Sans', Helvetica, Arial;
+	font-size: 100.01%/1.3;
+	padding-bottom: 50px;
+}
+
+
+/*------------------------------------------
+	Logo
+------------------------------------------*/
+#logo{
+	background: url(images/logo.png) no-repeat 0 0;
+}
+
+#logo a {
+	display: block;
+	height: 150px;
+	border-bottom: 0px !important;
+}
+
+#logo a span{
+	display: block;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+
+div#logoTile{
+	background:url(images/logo_tile.png) repeat-x top left;
+}
+
+
+/*------------------------------------------
+	Feed link
+------------------------------------------*/
+#feedLogo{
+	background: url(images/rss_black64x64.png) no-repeat 0 0;
+	height: 64px;
+	width: 64px;
+	float: right;
+	margin: 0px 10px 0px 0px;
+}
+
+#feedLogo:hover{
+	background: url(images/rss_black64x64-hover.png) no-repeat 0 0;
+}
+
+#feedLogo a {
+	display: block;
+	height: 64px;
+	border-bottom: 0px !important;
+}
+#feedLogo a span{
+	display: block;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+}
+
+
+/*------------------------------------------
+	Menus
+------------------------------------------*/
+div#layoutMenu{
+	background-color: transparent;
+	margin-left: 0px;
+	border-bottom: 2px solid gray;
+	background:transparent url(images/layout/menu_bg.png) repeat-x top left;
+}
+
+ul#menu
+{
+	margin: 0px auto;
+	list-style-type:none;
+	width:100%;
+	display:block;
+	height:30px;
+	font-size: 93%;
+	font-weight:bold;
+	font-family:Verdana, Helvetica, sans-serif;
+}
+
+ul#menu li
+{
+	display:block;
+	float:left;
+}
+	
+ul#menu li a
+{
+	display:block;
+	float:left;
+	color:#999999;
+	text-decoration:none !important;
+	border-bottom: 0px !important;
+	font-weight:bold;
+	padding:8px 20px 0 20px;
+}
+	
+ul#menu li a:hover
+{	
+	color:#FFFFFF;
+	height:22px;
+	background:transparent url(images/layout/menu_bg.png) 0px -30px no-repeat;		
+}
+
+ul#menu li a.current
+{
+	display:inline;
+	background:transparent url(images/layout/menu_bg.png) 0px -30px no-repeat;	
+	float:left;
+}
+
+
+/*------------------------------------------
+	Layout
+------------------------------------------*/
+div#wrapper{
+}
+
+div#innerWrapper{
+	border: 3px solid #aaa;
+	border-top: 0px;
+}
+
+div#mainContentWrapper{
+}
+
+div#mainContent{
+	padding-right: 20px;
+	overflow: auto;
+	border-right: 3px dashed #aaa;
+	overflow:auto;
+	margin: 10px 5px 10px 10px;
+}
+	
+div#wrapper div#mainWrapper, div#mainWrapper  .sb-inner, div#mainBottomBorder, div#mainBottomBorder .sb-inner{ 
+	background-color: #000;
+	color: #fff;
+}
+
+div#mainWrapper{
+}
+
+div#mainSideWrapper{
+}
+
+div#sidebar{
+	margin: 10px 5px 10px 0px;
+	font: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+div#footer{
+	margin:0px auto;
+	bottom: 0px;
+	padding: 2px 2px 2px 2px;
+	text-align: center;
+	font-size: 85%;
+	font-weight: bold;
+}
+
+#footer ul{
+	list-style-type: none;
+}
+#footer ul li{
+	display: inline;
+}
+#footer ul li:before{
+	content: " - ";
+}
+#footer ul li.first:before{
+	content: "";
+}
+
+
+/*------------------------------------------
+	Search Box
+------------------------------------------*/
+#searchBox {
+    width: 162px;
+    height: 20px;
+    background: url(images/bg_search_box.png);
+	margin-top: 3px;
+	float: right;
+	margin-right: 5px;
+	border: 2px solid #727272;
+}
+
+#searchBox #s {
+    float: left;
+    padding: 0;
+    margin: 2px 0 0 6px;
+    border: 0;
+    width: 125px;
+    background: none;
+    font-size: 100%;
+}
+
+#searchBox #go {
+    float: right;
+    margin: 3px 4px 0 0;
+}
+
+
+/*------------------------------------------
+	Widgets (sidebar)
+------------------------------------------*/
+.widget, .widgetMain{
+	/* haut droite bas gauche */
+	padding: 5px 5px 10px 10px;
+	background-color: #333;
+	border-bottom: 1px solid gray;
+	/*border: 3px solid gray;*/
+	margin: 0px 10px 10px 0px;
+	overflow:hidden;
+}
+
+.widgetMain{
+	padding: 0px 5px 10px 10px;
+	background-color: #000;
+	border: 0px;
+}
+
+
+/*------------------------------------------
+	Comments form
+------------------------------------------*/
+div#commentformdiv{
+	margin: 5px 5px 5px 5px;
+}
+
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+
+#commentform label{
+	width: 250px;
+}
+
+#commentform input{
+	width: 225px;
+}
+
+#commentform input, #commentform textarea{
+	border: 2px solid #bbb;
+}
+
+#commentform textarea, #commentform textarea.error{
+	padding: 5px;
+}
+
+#commentform label.error{
+	font-size: 100%;
+	background: #eeeeee url(images/cancel.png) no-repeat left;
+	border:2px solid #bbb;
+	padding-left:20px;
+	margin-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;;
+}
+
+#commentform input.error{
+	padding: 0px;
+}
+
+#commentform textarea{
+	width: 95%;
+}
+
+
+/*------------------------------------------
+	Links
+------------------------------------------*/
+a:link, a:visited {
+	color: gray;
+	text-decoration: none;
+	
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: cyan;
+}
+
+
+/*------------------------------------------
+	Tooltips
+------------------------------------------*/
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	background-color: #444444;
+	color: #ffffff;
+	padding: 4px;
+	border: 1px solid #888888;
+	-moz-border-radius-bottomleft: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 7px;
+	opacity: .85;
+	max-width: 20em;
+}
+
+#tooltip h3 {
+	font-size: 100%;
+	font-weight: bold;
+	color: #dddddd;
+    margin: 0;
+	padding: 0 3px;
+	text-align: left !important;
+}
+
+#tooltip p {
+	margin: 5px 0 0 5px;
+	text-align: left;
+}
+
+
+/*------------------------------------------
+	Comments
+------------------------------------------*/
+.comment-alt{
+	background-color: #222;
+	border: 3px solid #444;
+	padding: 5px 5px 5px 5px;
+	margin: 5px;
+}
+
+/* a bit too flashy heh
+.comment-normal:hover, .comment-alt:hover{
+	border: 3px solid #888;
+}
+*/
+
+.comment-normal{
+	background-color: #111;
+	border: 3px solid #444;
+	margin: 5px;
+	padding: 5px 5px 5px 5px;
+}
+
+.comment-author{
+	background-color: #212f3e;
+	border: 3px solid #888;
+	margin: 5px;
+	padding: 5px 5px 5px 5px;
+}
+
+.comment-author:hover{
+	border: 3px solid #ddd;
+}
+
+.comments_text{
+	padding: 10px 0px 0px 5px;
+	margin: 0px;
+}
+
+
+/*------------------------------------------
+	Misc (typography, ...)
+------------------------------------------*/
+h1, h2{
+	color: white;
+}
+
+div.post{ /* post box */
+	border-bottom: 1px solid #dddddd;
+}
+
+h2.postTitle{
+	border-bottom: 1px solid #dddddd;
+}
+
+a.postTitleLink:link, a.postTitleLink:visited{
+	color: #ffffff !important;
+}
+
+a.postTitleLink:hover, a.postTitleLink:active{
+	/*
+	color: #eeeeee !important;
+	border-bottom: 1px solid #eeeeee
+	*/
+	color: cyan !important;
+	border-bottom: 1px solid cyan;
+}
+
+div.entry{ /* post content */
+}
+
+div.entryContent{
+}
+
+img.pie-img{
+	border: 3px solid #ddd !important;
+	/*background: url(images/shadow-1000x1000.gif) no-repeat right bottom !important;*/
+}
+img.pie-img:hover{
+	border: 3px solid #fff !important;
+	/*background: none !important;*/
+}
+img.pie-img, img.pie-img:hover{
+	/* padding for the drop shadow effect */
+	padding: 5px 10px 10px 5px !important;
+}
+
+
+p.postmetadata{ /* tags, author, categories */
+}
+
+h3.widgetTitle{
+	color: white;
+}
+
+h2.widgetMainTitle{
+	color: white;
+}
+
+.widgetMainDescription{
+}
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+}
+
+.hide{
+	display: none !important;
+}
