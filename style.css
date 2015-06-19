@@ -1,14 +1,15 @@
 ﻿/*
 Theme Name: Midnight Light
-Theme URI: https://github.com/dsebastien/midnightlight
-Description: Midnight Light is a theme I developped for my own blog: www.dsebastien.net. It is dark, clean, simple and very nice for photo blogs
+Theme URI: http://dev/null
+Description: Default Midnight Light theme
 Version: 1.0.0
-Author: dSebastien
-Author URI: http://www.dsebastien.net
+Author: lechtitseb
+Author URI: http://dev/null
 Tags: dark, black, two-columns, right-sidebar
 */
 body {
 	background: #474c52 url(images/layout/background.jpg) center;
+	/*background: #474c52 url(images/layout/background.png) center;*/
 	color: #333;
 	font-family: 'Verdana', 'Lucida Grande', 'Lucida Sans', Helvetica, Arial;
 	font-size: 100.01%/1.3;
@@ -131,7 +132,8 @@ div#wrapper{
 
 div#innerWrapper{
 	border: 3px solid #aaa;
-	border-top: 0px;
+	/*border-top: 0px;*/
+	border-top: 3px solid #aaa;
 }
 
 div#mainContentWrapper{
@@ -147,7 +149,7 @@ div#mainContent{
 	
 div#wrapper div#mainWrapper, div#mainWrapper  .sb-inner, div#mainBottomBorder, div#mainBottomBorder .sb-inner{ 
 	background-color: #000;
-	color: #fff;
+	color: #A6A5A5;
 }
 
 div#mainWrapper{
@@ -283,7 +285,7 @@ div#commentformdiv{
 	Links
 ------------------------------------------*/
 a:link, a:visited {
-	color: gray;
+	color: rgb(10, 114, 168);
 	text-decoration: none;
 	
 }

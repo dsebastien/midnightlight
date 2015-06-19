@@ -14,7 +14,6 @@
 				<div class="entry">
 					<p></p>
 					<div class="entryContent"><?php the_content(); ?></div>
-					<br />
 					<p class="postmetadata">
 						<?php the_tags('Tags: ', ', ', '<br />'); ?> 
 						Posted by <span class="author"><?php the_author_posts_link(); ?></span> in <?php the_category(', ') ?></span> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>

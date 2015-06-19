@@ -14,9 +14,9 @@
 
 			<ul>
 
-				<li class="first">WP Theme © Sébastien Dubois</li>
+				<li class="first">WP Theme © Sébastien</li>
 
-				<li><a title="RSS Feed" href="http://feeds.feedburner.com/MidnightLight" style="border: 0 !important;"><img src="<?php bloginfo('template_url'); ?>/images/feed-icon-small.png" alt="RSS"/>&nbsp;RSS Feed</a></li>
+				<li><a title="RSS Feed" href="https://feeds.feedburner.com/MidnightLight" style="border: 0 !important;"><img src="<?php bloginfo('template_url'); ?>/images/feed-icon-small.png" alt="RSS"/>&nbsp;RSS Feed</a></li>
 
 				<li><?php wp_loginout(); ?></li>
 
